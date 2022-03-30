@@ -74,7 +74,7 @@
                     Questo comportamento può fare eccezione, ad esempio se utilizzi alcuni browser meno diffusi. Ulteriori informazioni sulla ricerca SSL sono disponibili <a href="#">qui</a>. Le query di ricerca o le informazioni contenute nell\'URL referrer potrebbero essere disponibili mediante Google Analytics o un\'API (Application Programming Interface). 
                     Inoltre, gli inserzionisti potrebbero ricevere informazioni relative all\' esatte parole chiave che hanno determinato il clic su un annuncio.</p>',
     ],
-  ]
+  ];
 ?>
 
 <!DOCTYPE html>
@@ -83,16 +83,53 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="app.css">
   <title>php-google-faq</title>
 </head>
 <body>
-  <?php
-  foreach ($faq as $value){
-    ?>
-    <h2> <?php echo $value['domanda'] ?> </h2>
-    <?php
-    echo $value['risposta'];
-  }
-  ?>
+
+  <nav>
+    <div class="container-logo">
+      <div class="logo">
+        <img src="https://1000marche.net/wp-content/uploads/2020/03/Google-logo.png" alt="">
+      </div>
+      <p>Privacy e termini</p>
+    </div>
+    <ul class="navigation">
+      <li><a href="#"> Introduzione </a></li>
+      <li><a href="#"> Norme sulla privacy </a></li>
+      <li><a href="#"> Termini di servizio </a></li>
+      <li><a href="#"> Tecnologie </a></li>
+      <li><a class="active" href="#"> Domande frequenti </a></li>
+    </ul>
+  </nav>
+
+  <header class="contaner">
+    <div>
+      <?php
+      foreach ($faq as $value){
+        ?>
+        <h2> <?php echo $value['domanda'] ?> </h2>
+        <?php
+        echo $value['risposta'];
+      }
+      ?>
+    </div>
+  </header>
+
+  <footer>
+        <ul class="link">
+          <li><a href="#">Google</a></li>
+          <li><a href="#">Tutto su Google</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Termini</a></li>
+        </ul>
+      
+
+        <select name="" id="languages">
+          <option value="it">Italiano</option>
+        </select>
+  </footer>
 </body>
 </html>

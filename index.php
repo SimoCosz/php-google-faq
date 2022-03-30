@@ -26,11 +26,35 @@
     ],
     [
       'domanda' => 'Come fa Google a proteggere la mia privacy e a tenere le mie informazioni al sicuro?',
-      'risposta' => '',
+      'risposta' => '<p>Sappiamo che la sicurezza e la privacy sono importanti per te e lo sono anche per noi. 
+                    Per noi è imperativo offrire un\'elevata sicurezza e assicurarti che le tue informazioni sono al sicuro e accessibili quando ne hai bisogno.</p>
+                    
+                    <p>Siamo costantemente al lavoro per garantire un\'elevata sicurezza, proteggere la tua privacy e rendere Google ancora più efficace ed efficiente per te. 
+                    Spendiamo centinaia di milioni di dollari ogni anno per la sicurezza e ci avvaliamo di esperti di fama mondiale in materia di sicurezza dei dati per mantenere le tue informazioni al sicuro. 
+                    Abbiamo inoltre sviluppato strumenti per la sicurezza e la privacy di facile utilizzo come Google Dashboard, la verifica in due passaggi e Impostazioni annunci. 
+                    Così, per quanto riguarda le informazioni che condividi con Google, hai il massimo controllo.</p>
+                    
+                    <p>Puoi leggere ulteriori informazioni sulla sicurezza online, incluso come proteggere te e la tua famiglia online, nel <a href="#">centro Google per la sicureza online</a>.</p>
+                    
+                    <p><a href="#">scopri</a> quali misure adottiamo per garantire protezione e sicurezza alle tue informazioni personali, lasciando a te il controllo.</p>',
     ],
     [
       'domanda' => 'Perché il mio account è associato a un paese?',
-      'risposta' => '',
+      'risposta' => '<p>Il tuo account è associato a un paese (o territorio) nei Termini di servizio per poter stabilire due cose:</p>
+                    
+                    <ol>
+                      <li>
+                        <p>La società consociata Google che offre i servizi, tratta le tue informazioni ed è responsabile del rispetto delle leggi sulla privacy vigenti. Generalmente Google offre i propri servizi per i consumatori tramite una delle due società seguenti:</p>
+                        <ul>
+                          <li><p>Ireland Limited, se gli utenti sono residenti nello Spazio economico europeo (paesi dell\'Unione europea, oltre a Islanda, Liechtenstein e Norvegia) o in Svizzera.</p></li>
+                          <li>Google LLC, con sede negli Stati Uniti, per il resto del mondo.</li>
+                        </ul>
+                      </li>
+                      <li><p>La versione dei termini che regola il nostro rapporto, che può variare in base alle leggi locali.</p></li>
+                    </ol>
+
+                    <p>Tieni presente che i servizi Google sono fondamentalmente gli stessi a prescindere dalla società consociata che li offre o dal paese a cui è associato il tuo account.</p>
+      ',
     ],
     [
       'domanda' => 'Come faccio a rimuovere informazioni su di me dai risultati di ricerca di Google?',
@@ -60,6 +84,18 @@
     echo $value['risposta'];
   }
   ?>
-  <a href="#">decisione della Corte di giustizia dell\'Unione europea</a>
+
+<ol>
+  <li>
+    <p>La società consociata Google che offre i servizi, tratta le tue informazioni ed è responsabile del rispetto delle leggi sulla privacy vigenti. Generalmente Google offre i propri servizi per i consumatori tramite una delle due società seguenti:</p>
+    <ul>
+      <li><p>Ireland Limited, se gli utenti sono residenti nello Spazio economico europeo (paesi dell'Unione europea, oltre a Islanda, Liechtenstein e Norvegia) o in Svizzera.</p></li>
+      <li>Google LLC, con sede negli Stati Uniti, per il resto del mondo.</li>
+    </ul>
+  </li>
+  <li><p>La versione dei termini che regola il nostro rapporto, che può variare in base alle leggi locali.</p></li>
+</ol>
+
+  <a href="#">scopri</a>
 </body>
 </html>
